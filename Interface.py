@@ -2,7 +2,7 @@ import customtkinter as ctk
 import numpy as np
 import matplotlib.pyplot as plt
 from DataForInterface import Data
-from CrystalDynamics.CoreCalculation.Core import Solution
+from energy_analysis.CoreCalculation.Core import Solution
 import random as random
 ctk.set_appearance_mode("dark")  # Modes: system (default), light, dark
 ctk.set_default_color_theme("blue")
@@ -245,6 +245,7 @@ def Plot():
     plt.xlim(StartTime, EndTime)
 
     plt.legend()
+    plt.grid()
     plt.show()
 
 

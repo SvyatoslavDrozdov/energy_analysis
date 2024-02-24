@@ -1,4 +1,4 @@
-from CrystalDynamics.CoreCalculation.Core import InputData
+from energy_analysis.CoreCalculation.Core import InputData
 from Decoder import transformation
 import numpy as np
 
